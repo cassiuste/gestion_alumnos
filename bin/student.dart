@@ -3,7 +3,7 @@ import 'module.dart';
 class Student{
   String name;
   String lastName;
-  int dni;
+  String dni;
   int age;
   List<Module> modules;
   bool repeater;
@@ -18,7 +18,7 @@ class Student{
 
   @override
   String toString() {
-    return "$name $lastName ($age) - $dni: {$modules} - Repeater: $repeater";
+    return '$name $lastName ($age) - $dni: {$modules} - Repeater: $repeater';
   }
 
 }

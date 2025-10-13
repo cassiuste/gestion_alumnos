@@ -10,6 +10,6 @@ class Module{
 
   @override
   String toString() {
-    return "$name: $ras - ($hours hours)";
+    return '$name: $ras - ($hours hours)';
   }
 }
